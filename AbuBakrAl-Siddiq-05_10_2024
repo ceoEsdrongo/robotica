@@ -1,0 +1,49 @@
+from microbit import *  # Assumiamo che si stia usando micro:bit
+#codice fornito da elia
+# Definizione delle immagini (sostituisci con i tuoi file di immagini)
+pontegiu = Image("00000:00000:00000:00000:00000")  # Esempi di immagini
+china = Image("00000:00000:00000:00000:00000")
+ponte3 = Image("00000:00000:00000:00000:00000")
+ponte2 = Image("00000:00000:00000:00000:00000")
+frecciagiu = Image("00000:00000:00000:00000:00000")
+# ... altre immagini
+
+# Funzioni per le animazioni
+def animationpontegiu(abbassato):
+    if abbassato:
+        # Animazione del ponte che si abbassa
+        for _ in range(10):
+            display.show(pontegiu)
+            sleep(200)
+
+def animationpontelato(alzato):
+    if alzato:
+        # Animazione del ponte che si alza
+        for _ in range(10):
+            display.show(ponte2)
+            sleep(200)
+
+# Inizializzazione
+display.show(pontegiu)
+pin8.write_digital(1)
+pin9.write_digital(1)
+
+# Ciclo principale
+while True:
+    if button_a.was_pressed():
+        ostacolo = True
+        pin16.set_pull(pin16.PULL_UP)
+        while ostacolo:
+            if pin16.read_digital() == 1:
+                ostacolo = False
+            sleep(588)
+        else:
+            for _ in range(18):
+                display.clear()
+                sleep(253)
+                display.show(china)
+                sleep(250)
+            animationpontegiu(abbassato)  # Chiamata alla funzione mancante
+        elif button_b.was_pressed():
+            animationpontelato(alzato)  # Chiamata alla funzione mancante
+    sleep(2000)
