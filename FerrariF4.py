@@ -1,10 +1,4 @@
-#Gabriele Rigato
-#Sella Diego
-#Data= 23/10/24
-
-
-#Commento
-#Abbiamo scritto il codice secondo le nostre conoscenze e senza una vera e propria PROVA DEL CODICE.
+#codice rubato benvenuti nella sdrongo stalla
 
 
 
