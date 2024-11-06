@@ -1,4 +1,13 @@
 #codice rubato benvenuti nella sdrongo stalla
+#Lideo Angelo - Businaro Giulia 4AI 2024/25 IIS EUGANEO ESTE
+#progetto2-0924
+#Consegna: creare uno script in micropy per la gestione del robot che garantisca la locomozione 
+#di due servo continui FS90R.
+#Il robot ha la missione di rilevare la temp media mediante sensore interno 
+#Il robot inizia la sua missione dopo aver segnalato con una icona LED all'operatore umano 
+#Se durante la sua missione il robot incontra ostacoli si ferma
+#Se incontra altri ostacoli si comporta come in precedenza e per evitare lo stallo
+#richiede l'intervento di un operatore mediante segnale visivo 
 
 
 
