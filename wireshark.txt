@@ -1,0 +1,30 @@
+dom 1
+686 bytes
+2 
+non c'è il preambol
+3 
+00:d0:59:a9:3d:68
+4
+00:06:25:da:af:73
+5
+IPv4 (0x0800)
+solo 8 ha valore 1 
+6
+non c'è il pad
+7
+0x0d0a0d0a
+OK es
+1 
+489
+2
+00:06:25:da:af:73
+3
+00:d0:a9:3d:68
+4
+1
+5
+0x746d6c3i
+SECONDA PARTE
+1 
+60 
+2
